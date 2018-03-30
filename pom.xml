@@ -30,6 +30,11 @@
 		<jackson-core-version>2.7.3</jackson-core-version>
 		<jackson-annotations-version>2.7.3</jackson-annotations-version>
 		<spring-session-version>1.1.1.RELEASE</spring-session-version>
+		
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+		
 	</properties>
 	<dependencyManagement>
 		<dependencies>
